@@ -114,22 +114,19 @@
                     <label for="Outros">Outros</label>
                     <br>
                    
-                    <p>Gosto Musical:</p>
-                    <input type="checkbox" name="music" value="Rock">
-                    <label for="Rock">Rock</label>
+                    <label for="music">Gosto musical:</label>
+                    <input list="music-list" name="music" id="music" type="text" placeholder="Selecione">
+                    <datalist id="music-list">
+                        <option value="Rock">
+                        <option value="Sertanejo">
+                        <option value="Funk">
+                        <option value="Pop">
+                        <option value="Outros">
+                    </datalist>
                     <br>
-                    <input type="checkbox" name="music" value="Sertanejo">
-                    <label for="Sertanejo">Sertanejo</label>
-                    <br>
-                    <input type="checkbox" name="music" value="Funk">
-                    <label for="Funk">Funk</label>
-                    <br>
-                    <input type="checkbox" name="music" value="Pop">
-                    <label for="Pop">Pop</label>
-                    <br>
-                    <input type="checkbox" name="music" value="Outros">
-                    <label for="Outros">Outros</label>
-                    <br>
+
+                    <label for="favoriteColor">Cor Favorita:</label>
+                    <input type="color" id="favoriteColor" name="favoriteColor">
 
                     
                 </fieldset>
