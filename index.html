@@ -22,7 +22,7 @@
                     <label for="userage">Idade:</label>
                     <input type="number" min="12" max="100" name="userage" id="userage" placeholder="Idade">
                     <br>
-                    <label for="birthdate">Data de  Nascimento:</label>
+                    <label for="birthdate">Data de Nascimento:</label>
                     <input type="date" name="birthdate" id="birthdate" placeholder="Data de  Nascimento">
                     <br>
                     <label for="usermail">E-mail:</label>
@@ -33,6 +33,64 @@
                     <br>
                     <label for="userImage">Upload de Foto:</label>
                     <input type="file" accept="image/*"></ipunt>
+                </fieldset>
+
+                <!--Perfil-->
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <p>Gênero:</p>
+                    <input type="radio" name="gender" id="userGender" value="feminino">
+                    <label for="userGender">Feminino</label>
+                    <input type="radio" name="gender" id="userGender" value="masculino">
+                    <label for="userGender">Masculino</label>
+                    <input type="radio" name="gender" id="userGender" value="not-informed">
+                    <label for="userGender">Prefiro não informar</label>
+                    <br>
+                    <label for="maritalStatus">Estado Civil:</label>
+                    <select for="maritalStatus">
+                        <option value="not-informed">Selecione</option>
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viúvo</option>
+                        <option value="uniao-estavel">União Estável</option>
+                    </select>
+
+                    <label for="userState">Estado:</label>
+                    <select name="userState" required>
+                        <option value="not-informed" disabled selected>Selecione</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+
+                    <label for="userCity">Cidade:</label>
+                    <input type="text" name="userCity" placeholder="Sua Cidade">
+
                 </fieldset>
 
 
