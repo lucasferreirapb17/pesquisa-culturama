@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #8b8989;
+    background-color: #d8d5d5;
 
 }
 
@@ -54,4 +54,25 @@ legend {
     font-size: 16px;
     padding: 0 10px;
 }
-
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #535252;
+}
+textarea {
+    min-height: 100px;
+}
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+}
+input[type="color"] {
+    width: 40px;
+    padding: 0 5px;
+}
