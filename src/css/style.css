@@ -1,17 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #8b8989;
+
+}
+
+main{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
 
 h1 {
     font-family: 'Fjalla One', sans-serif;
 }
 
-body {
-    font-family: 'Work Sans', sans-serif;
+img {
+    width: 100px
 }
+
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+fieldset {
+    border-radius: 8px;
+    border: 1px solid #535252;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
