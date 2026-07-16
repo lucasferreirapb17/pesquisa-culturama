@@ -58,6 +58,9 @@ label {
     display: inline-block;
     margin-bottom: 5px;
 }
+p {
+    margin-bottom: 20px;
+}
 input, select, textarea {
     width: 100%;
     padding: 10px;
@@ -75,4 +78,34 @@ input[type="checkbox"] {
 input[type="color"] {
     width: 40px;
     padding: 0 5px;
+}
+
+/* Validações de Usuário */
+input:invalid,
+select:invalid,
+textarea:invalid{
+    border-color: red;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid{
+    border-color: greenyellow;
+}
+
+/* Botão */
+button {
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #f4f4f4;
+}
+button[type="reset"]:hover{
+    background-color: #f58686;
 }
