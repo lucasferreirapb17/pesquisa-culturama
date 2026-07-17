@@ -81,18 +81,17 @@ input[type="color"] {
 }
 
 /* Validações de Usuário */
-input:invalid,
-select:invalid,
-textarea:invalid{
+/*
+input[type="text"]:invalid{
     border-color: red;
 }
 
-input:invalid,
+input[type="text"]:invalid,
 select:invalid,
 textarea:invalid{
     border-color: greenyellow;
 }
-
+*/
 /* Botão */
 button {
     width: 100px;
@@ -107,5 +106,6 @@ button:hover {
     background-color: #f4f4f4;
 }
 button[type="reset"]:hover{
-    background-color: #f58686;
+    background-color: #ee5656;
+    color: #fff;
 }
