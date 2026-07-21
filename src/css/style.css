@@ -6,12 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+  --cor-texto: #333333;
+  --cor-fundo: #ffffff;
+}
+
+.theme-high-contrast {
+  --cor-texto: #000000;
+  --cor-fundo: #ffffff;
+}
 
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #d8d5d5;
-
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
 }
 
 main{
