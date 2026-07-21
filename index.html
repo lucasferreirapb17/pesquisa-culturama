@@ -37,7 +37,7 @@
                     <small id="phoneHelp">Preencha com 11 dígitos no formato: DDD + Número sem espaços ou hífen. Ex: 11912345678</small>
                     <br>
                     <label for="userImage">Upload de Foto:</label>
-                    <input type="file" accept="image/*" aria-describedby="imageHelp"></ipunt>
+                    <input type="file" id="userImage" accept="image/*" aria-describedby="imageHelp"></ipunt>
                     <small id="imageHelp">Envie um arquivo de imagem no formato JPG ou PNG</small>
                 </fieldset>
 
@@ -64,7 +64,7 @@
                     </select>
 
                     <label for="userState">Estado:</label>
-                    <select name="userState" required>
+                    <select name="userState" id="userState" required>
                         <option value="not-informed" disabled selected>Selecione</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
@@ -96,7 +96,7 @@
                     </select>
 
                     <label for="userCity">Cidade:</label>
-                    <input type="text" name="userCity" placeholder="Sua Cidade">
+                    <input type="text" id="userCity" name="userCity" placeholder="Sua Cidade">
 
                 </fieldset>
 
@@ -104,19 +104,19 @@
                 <fieldset>
                     <legend>Habitos</legend>
                     <p>Sociais:</p>
-                    <input type="checkbox" name="social" value="Instagram">
+                    <input type="checkbox" id="Instagram" name="social" value="Instagram">
                     <label for="Instagram">Instagram</label>
                     <br>
-                    <input type="checkbox" name="social" value="TikTok">
+                    <input type="checkbox" id="TikTok" name="social" value="TikTok">
                     <label for="TikTok">TikTok</label>
                     <br>
-                    <input type="checkbox" name="social" value="Facebook">
+                    <input type="checkbox" id="Facebook" name="social" value="Facebook">
                     <label for="Facebook">Facebook</label>
                     <br>
-                    <input type="checkbox" name="social" value="X">
+                    <input type="checkbox" id="X" name="social" value="X">
                     <label for="X">X</label>
                     <br>
-                    <input type="checkbox" name="social" value="Outros">
+                    <input type="checkbox" id="Outros" name="social" value="Outros">
                     <label for="Outros">Outros</label>
                     <br>
                    
@@ -140,13 +140,13 @@
                 <fieldset>
                     <legend>Opinião</legend>
                     <p>O que você acha da qualidade do nosso serviço?</p>
-                    <input type="radio" name="satisfaction" id="userSatisfaction" value="otima">
+                    <input type="radio" id="otima" name="satisfaction" id="userSatisfaction" value="otima">
                     <label for="userSatisfaction">Ótima</label>
-                    <input type="radio" name="satisfaction" id="userSatisfaction" value="boa">
+                    <input type="radio" id="boa" name="satisfaction" id="userSatisfaction" value="boa">
                     <label for="userSatisfaction">Boa</label>
-                    <input type="radio" name="satisfaction" id="userSatisfaction" value="regular">
+                    <input type="radio" id="regular" name="satisfaction" id="userSatisfaction" value="regular">
                     <label for="userSatisfaction">Regular</label>
-                    <input type="radio" name="satisfaction" id="userSatisfaction" value="ruim">
+                    <input type="radio" id="ruim" name="satisfaction" id="userSatisfaction" value="ruim">
                     <label for="userSatisfaction">Ruim</label>
                     <br>
 
@@ -158,11 +158,11 @@
                 <fieldset>
                     <legend>Confirmações</legend>
                     
-                    <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                    <input type="checkbox" id="userLgpdTerm" name="userLgpd" id="userLgpdTerm" value="accepted" required>
                     <label for="userLGPD">Eu aceito participar da pesquisa</label>
                     <br>
                     
-                    <input type="checkbox" name="userGetResults" id="userGetResults">
+                    <input type="checkbox" id="userGetResults" name="userGetResults" id="userGetResults">
                     <label for="userGetResults">Quero receber novidades</label>
                     <br>
                 </fieldset>
